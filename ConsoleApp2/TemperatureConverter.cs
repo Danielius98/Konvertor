@@ -87,10 +87,3 @@ public class TemperatureConverter
         return (kelvin - 273.15) * 9 / 5 + 32;
     }
 }
-
-public class InvalidTemperatureException : Exception
-{
-    public InvalidTemperatureException(string message) : base(message)
-    {
-    }
-}
